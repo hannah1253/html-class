@@ -1,3 +1,14 @@
-.banner .section_tt{
-  color:var(--white);
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--base-unit) * 2);
+  align-items: center;
+}
+.banner .section_tt {
+  color: var(--white);
+}
+.banner .titles {
+  display: flex;
+  flex-direction: column;
+  gap: var(--base-unit);
 }
